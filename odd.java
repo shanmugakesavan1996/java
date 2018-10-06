@@ -11,6 +11,8 @@ class odd
     
      if (x % 2 == 0)
         System.out.println("The number is even.");
+     else if(x<=0)
+         System.out.println("invalid");
      else
         System.out.println("The number is odd.");
   }
